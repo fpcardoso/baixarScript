@@ -1,2 +1,2 @@
-gitpush;chmod +x gitpush;
+mkdir /usr/local/bin/gitpush;chmod +x /usr/local/bin/gitpush;
 curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > gitpush
