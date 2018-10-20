@@ -1,0 +1,2 @@
+gitpush;chmod +x gitpush;
+curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > gitpush
