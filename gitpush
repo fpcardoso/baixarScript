@@ -1,2 +1,3 @@
-touch gitpush; chmod +x gitpush;
-curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > gitpush
+touch gitpush gitclone; chmod +x gitpush gitclone;
+curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > gitpush;
+curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/clone > gitclone;
