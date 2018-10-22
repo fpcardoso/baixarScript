@@ -1,5 +1,5 @@
 mkdir scripts;cd scripts;touch gpush gclone; chmod +x gpush gclone; cd ..;
 echo export PATH=$PATH:$PWD/scripts >> ~/.profile;
 echo export PATH=$PATH:$PWD/scripts >> ~/.bashrc;
-curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > gpush;
-curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/clone > gclone;
+curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > $PWD/scripts/gpush;
+curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/clone > $PWD/scripts/gclone;
