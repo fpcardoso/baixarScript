@@ -3,4 +3,5 @@ echo export PATH=$PATH:$PWD/scripts >> ~/.profile;
 echo export PATH=$PATH:$PWD/scripts >> ~/.bashrc;
 curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/push > $PWD/scripts/gpush;
 curl -sL https://raw.githubusercontent.com/fpcardoso/Scripts/master/github/clone > $PWD/scripts/gclone;
-echo -e "set nu\nset paste\nset background=dark\nsy on\nset tabstop=4" > $HOME/.vimrc
+echo -e "set nu\nset paste\nset background=dark\nsy on\nset tabstop=4" > $HOME/.vimrc;
+source $HOME/.bashrc;
